@@ -1,10 +1,10 @@
-# PHP-Fusion First Module Tutorial
+#PHP-Fusion First Module Tutorial
 
-Tags: my first module, PHP-Fusion, tutorial, create plugin
-Requires at least: 7.x.x
-Tested up to: 7.02.07
-Stable tag: 1.0
-License: GNU General Public License, version 2
+ Tags: my first module, PHP-Fusion, tutorial, create plugin
+ Requires at least: 7.x.x
+ Tested up to: 7.02.07
+ Stable tag: 1.0
+ License: GNU General Public License, version 2
 
 **My First module** — это заготовка для плагина на CMS PHP-Fusion. Предназначена для ознакомления со структурой модуля PHP-Fusion.
 Модуль пустышка. Используйте его, если необходимо написать новый модуль для PHP-Fusion как шаблон.
