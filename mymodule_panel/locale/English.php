@@ -45,3 +45,5 @@ $locale['WGambit_error_ups'] = "Упс, что-то пошло не так";
 $locale['WGambit_all_ok'] = "Полёт нормальный!";
 $locale['WGambit_member_id'] = "Текущий ID пользователя: ";
 $locale['WGambit_member_name'] = "Ваше имя: ";
+
+?>
