@@ -31,11 +31,15 @@ else
 	include INFUSIONS."mymodule_panel/locale/English.php";
 
 global $locale;
-
+$inf_settings = get_settings("mymodule_panel");
 if (iGUEST)
 {
 	openside($locale['WGambit_title']);
-	echo $locale['WGambit_all_ok'];
+	echo '<div style="text-align:center; margin-bottom: 10px;">'.$locale['WGambit_all_ok'].'</div>';
+	echo '<div style="text-align:center; margin-bottom: 10px;">'.$locale['WGambit_first_setting'].$inf_settings['first_setting'].'</div>';
+	echo '<div style="text-align:center; margin-bottom: 10px;">'.$locale['WGambit_second_setting'].$inf_settings['second_setting'].'</div>';
+	$third_sett = ($inf_settings['select_setting']==0) ? $locale['WGambit_no'] : $locale['WGambit_yes'];
+	echo '<div style="text-align:center; margin-bottom: 10px;">'.$locale['WGambit_select_setting'].$third_sett.'</div>';
 	closeside();
 }
 else
@@ -57,6 +61,10 @@ else
 	{
 		echo '<div style="text-align:center; margin-bottom: 10px;">'.$locale['WGambit_member_id'].$member['user_id'].'</div>';
 		echo '<div style="text-align:center; margin-bottom: 10px;">'.$locale['WGambit_member_name'].$member['user_name'].'</div>';
+		echo '<div style="text-align:center; margin-bottom: 10px;">'.$locale['WGambit_first_setting'].$inf_settings['first_setting'].'</div>';
+		echo '<div style="text-align:center; margin-bottom: 10px;">'.$locale['WGambit_second_setting'].$inf_settings['second_setting'].'</div>';
+		$third_sett = ($inf_settings['select_setting']==0) ? $locale['WGambit_no'] : $locale['WGambit_yes'];
+		echo '<div style="text-align:center; margin-bottom: 10px;">'.$locale['WGambit_select_setting'].$third_sett.'</div>';
 	}
 	closeside();
 }

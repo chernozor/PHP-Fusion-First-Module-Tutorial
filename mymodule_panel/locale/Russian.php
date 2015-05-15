@@ -27,9 +27,9 @@ $locale['WGambit_title'] = "My First Module";
 
 // Settings
 $locale['WGambit_settings'] = "Настройки My First Module";
-$locale['WGambit_first_setting'] = "Первый параметр";
-$locale['WGambit_second_setting'] = "Второй параметр";
-$locale['WGambit_select_setting'] = "Третий Параметр";
+$locale['WGambit_first_setting'] = "Первый параметр: ";
+$locale['WGambit_second_setting'] = "Второй параметр: ";
+$locale['WGambit_select_setting'] = "Третий Параметр: ";
 $locale['WGambit_back'] = "Назад";
 $locale['WGambit_yes'] = "Да";
 $locale['WGambit_no'] = "Нет";
