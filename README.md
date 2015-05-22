@@ -1,9 +1,7 @@
 #PHP-Fusion First Module Tutorial
 
  Tags: my first module, PHP-Fusion, tutorial, create plugin
-
  Requires at least: 7.x.x
-
  Tested up to: 7.02.07
  Stable tag: 1.0
 
