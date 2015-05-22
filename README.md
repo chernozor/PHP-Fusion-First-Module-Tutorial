@@ -5,7 +5,6 @@
  Requires at least: 7.x.x
 
  Tested up to: 7.02.07
-
  Stable tag: 1.0
 
  License: GNU General Public License, version 2
